@@ -1,0 +1,123 @@
+:root{
+    --primary-color: hsl(31, 77%, 52%);
+    --secundary-color: hsl(184, 100%, 22%);
+    --right-box-color: hsl(179, 100%, 13%);
+    --paragraphs-color: hsla(0, 0%, 100%, 0.75);
+    --background-headings-bottoms: hsl(0, 0%, 95%);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+/*----------------------main----------------------*/
+
+body{
+    width: 100vw;
+    min-height: 100vh;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    
+}
+
+.container{
+    width: 64%;
+    height: 100vh;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.box{
+    
+    width: 33%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 6rem;
+}
+
+/*----------------------boxes----------------------*/
+
+.bg-naranja{
+    background-color: var(--primary-color);
+    border-radius: 12px 0 0 12px;
+}
+
+.bg-verzul{
+    background-color: var(--secundary-color);
+}
+
+.bg-verde{
+    background-color: var(--right-box-color);
+    border-radius: 0 12px 12px 0;
+}
+
+
+/*----------------------img----------------------*/
+
+img{
+    max-width: 7rem;
+
+}
+
+/*----------------------text----------------------*/
+
+h1{
+    color: var(--background-headings-bottoms);
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 4rem;
+}
+
+p{
+    color: var(--paragraphs-color);
+    font-family: 'Lexend Deca', sans-serif;
+    line-height: 2.5rem;
+}
+
+/*----------------------buttons----------------------*/
+
+.boton{
+    background-color: var(--background-headings-bottoms);
+    align-self: flex-start;
+    border-radius: 30px;
+    border: none ;
+    cursor: pointer;
+    font-size: 1.5rem;
+    padding: 10px 20px;
+    border: 2px solid transparent;
+
+}
+
+.boton:hover{
+    color: var(--background-headings-bottoms);
+    background-color: transparent;
+    border: 2px solid var(--background-headings-bottoms);
+}
+
+.naranja {
+    color: var(--primary-color);
+}
+
+.verzul{
+    color: var(--secundary-color);
+}
+
+.verde{
+    color: var(--right-box-color);
+}
+
+
+
+
+
